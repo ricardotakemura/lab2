@@ -31,7 +31,7 @@ Exemplo:
 
 ## 2. Diferenças entre '==' e '===' / O que &eacute; NaN?
 
-Utilizando as seguintes compara&ccedil;&otilde;es obtem os seguinte resultados:
+Utilizando as seguintes compara&ccedil;&otilde;es se obt&eacute;m os seguinte resultados:
 ```javascript
 function comparacoes () {
     var v1 = '1';
@@ -44,7 +44,7 @@ function comparacoes () {
     console.log("Resultado ('1' === '1'): " + (v1 === v1));
 }
 ```
-Utilizando o NaN obtem os seguinte resultados:
+Utilizando o NaN se obt&eacute;m os seguinte resultados:
 ```javascript
 function resultadoNaN () {
     console.log("Resultado (NaN == NaN): " + (NaN == NaN));
@@ -55,7 +55,7 @@ function resultadoNaN () {
 
 ## 3. Usando AJAX
 
-Para obter resultados de dados de uma API REST, &eacute; poss&iacute;vel usar m&eacute;todos AJAX (aqui, usando a biblioteca JQuery) para isso:
+Para obter as informa&ccedil;&otilde;es de uma API REST, &eacute; poss&iacute;vel usar m&eacute;todos AJAX (aqui, usando a biblioteca JQuery) para isso:
 ```javascript
 $.get('/user/1',(data) => {
     //transforma uma string json em objeto javascript
