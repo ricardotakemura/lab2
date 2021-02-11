@@ -28,8 +28,7 @@
                 </div>
                 <div class="right">
                     <p>
-<!--
-.luigi{
+<textarea id="code_question1">.luigi{
     width: 180px;
     height: 260px;
     background: url(./img/luigi.png);
@@ -38,12 +37,6 @@
 @keyframes walk_luigi {
     from {background-position: 0px 0px;}
     to {background-position: -360px 0px;}
-}
--->
-<textarea id="code_question1">.luigi{
-    width: 180px;
-    height: 260px;
-    background: url(./img/luigi.png);
 }</textarea>
                     </p>
                     <p>
@@ -59,8 +52,7 @@
                 </div>
                 <div class="right">                    
                     <p>
-<!--
-$('#btn_extenso').click(() => {
+<textarea id="code_question2">$('#btn_extenso').click(() => {
     let digit = parseInt($("#digit").val());
     if (isNaN(digit)) {
         $("#extenso").text('Não é um número');
@@ -84,35 +76,6 @@ $('#btn_extenso').click(() => {
         } else if (digit === 8) {
             $("#extenso").text('Oito');
         } else if (digit === 9) {
-            $("#extenso").text('Nove');
-        }   
-    }
-});
--->
-<textarea id="code_question2">$('#btn_extenso').click(() => {
-    let digit = parseInt($("#digit").val());
-    if (digit === NaN) {
-        $("#extenso").text('Não é um número');
-    } else {
-        if (digit === '0') {
-            $("#extenso").text('Zero');
-        } else if (digit === '1') {
-            $("#extenso").text('Um');
-        } else if (digit === '2') {
-            $("#extenso").text('Dois');
-        } else if (digit === '3') {
-            $("#extenso").text('Três');
-        } else if (digit === '4') {
-            $("#extenso").text('Quatro');
-        } else if (digit === '5') {
-            $("#extenso").text('Cinco');
-        } else if (digit === '6') {
-            $("#extenso").text('Seis');
-        } else if (digit === '7') {
-            $("#extenso").text('Sete');
-        } else if (digit === '8') {
-            $("#extenso").text('Oito');
-        } else if (digit === '9') {
             $("#extenso").text('Nove');
         }   
     }
@@ -140,8 +103,7 @@ $('#btn_extenso').click(() => {
                 </div>
                 <div class="right">                    
                     <p>
-<!--
-$.get('/call.json', (data) => {
+<textarea id="code_question3">$.get('/call.json', (data) => {
     let result = JSON.parse(data);
     let resposta1 = result.calls.filter(call => call.status === '200' || call.status === '201').length;
     $('#resposta1').text(resposta1);
@@ -167,13 +129,6 @@ $.get('/call.json', (data) => {
         }
     }
     $('#resposta4').text(resposta4);
-});
--->
-<textarea id="code_question3">$.get('', () => {
-    $('#resposta1').text('-');
-    $('#resposta2').text('-');
-    $('#resposta3').text('-');
-    $('#resposta4').text('-');
 });</textarea>
                     </p>
                     <p>
