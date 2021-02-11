@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    font: normal 14px Helvetica,Arial,sans-serif;
+    color: #4c4c4c;
+}
+
+.title {
+    font-size: 22px;
+    text-align: center;
+    margin: -10px 30%;
+}
+
+.head {
+  padding: 16px;
+  width: 100%;
+  position: fixed;
+  background-color: #FFF;
+}
+
+.body {
+    padding-top: 64px;    
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.question {
+    width: 800px;
+    height: 400px;
+    margin: 8px auto;    
+}
+
+.left {
+    float:left;
+    width: 400px;
+    height: 200px;
+    padding: 4px 0;
+}
+.right {
+    float: left;
+    width: 400px;
+    height: 200px;
+}
+
+p {
+    margin: 4px;
+}
+
+strong {
+    font-weight: bold;
+    margin: 4px;
+}
+
+textarea {
+    width: 390px;
+    height: 216px;
+}
+
+button.run {
+    width: 390px;
+    height: 32px;
+    background-color: #221177;
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
+
+#btn_extenso {
+    padding: 4px;
+}
+
+#digit {
+    margin: 4px;
+    height: 23px;
+    width: 50px;
+}
+
+ol {
+    margin: 0 16px;
+}
