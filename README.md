@@ -5,7 +5,7 @@
 
 ## 1. Aprendendo a fazer animações na folha de estilo
 
-Para criar uma anima&ccedil;&atilde;o na folha de estilo, basta usar a 'propriedade' animation do CSS:
+Para criar uma anima&ccedil;&atilde;o na folha de estilo, basta usar a 'propriedade' animation do CSS (https://www.w3schools.com/cssref/css3_pr_animation.asp):
 ```css
 #id_do_objeto {
     animation: <nome> <tempo> <funcao> <repeticao>;
@@ -31,7 +31,7 @@ Exemplo:
 
 ## 2. Diferenças entre '==' e '===' / O que &eacute; NaN?
 
-Utilizando as seguintes compara&ccedil;&otilde;es se obt&eacute;m os seguinte resultados:
+Utilizando as seguintes compara&ccedil;&otilde;es se obt&eacute;m os seguinte resultados (https://blogdotakemura.blogspot.com/2011/03/dicas-de-programacao-qual-diferenca.html):
 ```javascript
 function comparacoes () {
     var v1 = '1';
@@ -44,7 +44,7 @@ function comparacoes () {
     console.log("Resultado ('1' === '1'): " + (v1 === v1));
 }
 ```
-Utilizando o NaN se obt&eacute;m os seguinte resultados:
+Utilizando o NaN se obt&eacute;m os seguinte resultados (https://blogdotakemura.blogspot.com/2011/03/dicas-de-programacao-qual-diferenca_03.html):
 ```javascript
 function resultadoNaN () {
     console.log("Resultado (NaN == NaN): " + (NaN == NaN));
@@ -55,7 +55,7 @@ function resultadoNaN () {
 
 ## 3. Usando AJAX
 
-Para obter as informa&ccedil;&otilde;es de uma API REST, &eacute; poss&iacute;vel usar m&eacute;todos AJAX (aqui, usando a biblioteca JQuery) para isso:
+Para obter as informa&ccedil;&otilde;es de uma API REST, &eacute; poss&iacute;vel usar m&eacute;todos AJAX (aqui, usando a biblioteca JQuery) para isso (https://api.jquery.com/jquery.get/):
 ```javascript
 $.get('/user/1',(data) => {
     //transforma uma string json em objeto javascript
