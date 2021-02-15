@@ -28,18 +28,6 @@
                 </div>
                 <div class="right">
                     <p>
-<!--
-.luigi{
-    width: 180px;
-    height: 260px;
-    background: url(./img/luigi.png);
-    animation: walk_luigi 0.2s steps(2) infinite;
-}
-@keyframes walk_luigi {
-    from {background-position: 0px 0px;}
-    to {background-position: -360px 0px;}
-}
--->
 <textarea id="code_question1">.luigi{
     width: 180px;
     height: 260px;
@@ -59,36 +47,6 @@
                 </div>
                 <div class="right">                    
                     <p>
-<!--
-$('#btn_extenso').click(() => {
-    let digit = parseInt($("#digit").val());
-    if (isNaN(digit)) {
-        $("#extenso").text('Não é um número');
-    } else {
-        if (digit === 0) {
-            $("#extenso").text('Zero');
-        } else if (digit === 1) {
-            $("#extenso").text('Um');
-        } else if (digit === 2) {
-            $("#extenso").text('Dois');
-        } else if (digit === 3) {
-            $("#extenso").text('Três');
-        } else if (digit === 4) {
-            $("#extenso").text('Quatro');
-        } else if (digit === 5) {
-            $("#extenso").text('Cinco');
-        } else if (digit === 6) {
-            $("#extenso").text('Seis');
-        } else if (digit === 7) {
-            $("#extenso").text('Sete');
-        } else if (digit === 8) {
-            $("#extenso").text('Oito');
-        } else if (digit === 9) {
-            $("#extenso").text('Nove');
-        }   
-    }
-});
--->
 <textarea id="code_question2">$('#btn_extenso').click(() => {
     let digit = parseInt($("#digit").val());
     if (digit === NaN) {
@@ -140,35 +98,6 @@ $('#btn_extenso').click(() => {
                 </div>
                 <div class="right">                    
                     <p>
-<!--
-$.get('/call.json', (data) => {
-    let result = JSON.parse(data);
-    let resposta1 = result.calls.filter(call => call.status === '200' || call.status === '201').length;
-    $('#resposta1').text(resposta1);
-    let resposta2 = result.calls.filter(call => call.method == 'DELETE' && call.endpoint== '/users' && call.status === '500').length;
-    $('#resposta2').text(resposta2);
-    let resposta3 = (result.calls.filter(call => call.status === '401').length / result.count  * 100) + '%';
-    $('#resposta3').text(resposta3);
-    let apis = result.calls.filter(call => call.status === '404');
-    let counter = {};
-    apis.forEach((item) => {
-        if (counter[item.method + ' ' + item.endpoint]) {
-            counter[item.method + ' ' + item.endpoint] += 1;
-        } else {
-            counter[item.method + ' ' + item.endpoint] = 1;
-        }
-    });
-    let max = 0;
-    let resposta4 = '';
-    for (let key in counter) {
-        if (counter[key] > max) {
-            max = counter[key];
-            resposta4 = key;
-        }
-    }
-    $('#resposta4').text(resposta4);
-});
--->
 <textarea id="code_question3">$.get('', () => {
     $('#resposta1').text('-');
     $('#resposta2').text('-');
