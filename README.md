@@ -31,7 +31,7 @@ Exemplo:
 
 ## 2. Diferenças entre '==' e '===' / O que &eacute; NaN?
 
-Utilizando as seguintes compara&ccedil;&otilde;es se obt&eacute;m os seguinte resultados (https://blogdotakemura.blogspot.com/2011/03/dicas-de-programacao-qual-diferenca.html):
+Utilizando as seguintes compara&ccedil;&otilde;es se obt&eacute;m os seguintes resultados (https://blogdotakemura.blogspot.com/2011/03/dicas-de-programacao-qual-diferenca.html):
 ```javascript
 function comparacoes () {
     var v1 = '1';
@@ -44,7 +44,7 @@ function comparacoes () {
     console.log("Resultado ('1' === '1'): " + (v1 === v1));
 }
 ```
-Utilizando o NaN se obt&eacute;m os seguinte resultados (https://blogdotakemura.blogspot.com/2011/03/dicas-de-programacao-qual-diferenca_03.html):
+Utilizando o NaN se obt&eacute;m os seguintes resultados (https://blogdotakemura.blogspot.com/2011/03/dicas-de-programacao-qual-diferenca_03.html):
 ```javascript
 function resultadoNaN () {
     console.log("Resultado (NaN == NaN): " + (NaN == NaN));
