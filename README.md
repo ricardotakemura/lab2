@@ -17,7 +17,7 @@ Para criar uma anima&ccedil;&atilde;o na folha de estilo, basta usar a 'propried
 Exemplo:
 ```css
 #botao {
-    animation: botao_animado 1s step(6) infinite;
+    animation: botao_animado 1s steps(6) infinite;
 }
 @keyframes botao_animado {
     0% {background-color: red;}
