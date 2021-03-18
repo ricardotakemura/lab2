@@ -18,6 +18,7 @@ Exemplo:
 ```css
 #botao {
     animation: botao_animado 1s steps(6) infinite;
+    background-color: red;
 }
 @keyframes botao_animado {
     0% {background-color: red;}
